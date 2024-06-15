@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,9 +36,18 @@
         </div>
     </div>
     <div class="hourlyDiv">
-        <div class="hour1"></div>
-        <div class="hour2"></div>
-        <div class="hour3"></div>
+        <div class="hour1">
+            <img src="Assets/WeatherImg/partly-cloudy.png" alt="">
+            <p>12:00</p>
+        </div>
+        <div class="hour2">
+            <img src="Assets/WeatherImg/cloudy.png" alt="">
+            <p>12:00</p>
+        </div>
+        <div class="hour3">
+            <img src="Assets/WeatherImg/hail.png" alt="">
+            <p>12:00</p>
+        </div>
     </div>
     <div>
         <img class="vecImg" src="Assets/Vector 4.png">
@@ -46,12 +55,27 @@
     <div class="dayFeature">
         <div>
             <p>Wind</p>
+            <p>20km/h</p>
         </div>
         <div>
             <p>Air Quality</p>
+            <p>104 AQI</p>
         </div>
         <div>
             <p>Humidity</p>
+            <p>18%</p>
+        </div>
+    </div>
+    <div class="daynoonFeature">
+        <div>
+            <img src="Assets/WeatherImg/1.png" alt="">
+            <p id="rise">Sunrise</p>
+            <p>05:14 am</p>
+        </div>
+        <div>
+            <img src="Assets/WeatherImg/4.png" alt="">
+            <p id="set">Sunset</p>
+            <p>07:15 am</p>
         </div>
     </div>
     <script src="app.js"></script>
