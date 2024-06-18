@@ -1,0 +1,140 @@
+body {
+  background-color: #ff9d54;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.src-div {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  margin: 20px 5px 5px 5px;
+  justify-content: center;
+  gap: 5px;
+}
+.src-icon {
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: transparent;
+  cursor: pointer;
+}
+#inpBar {
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  background: #344A53;
+  color: #ff9d54;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  border-color: transparent;
+}
+
+#inpBar:focus {
+  outline: none;
+}
+
+.weather-div {
+  min-height: 200px;
+  /* background-color: #ffac88; */
+  background-color: #ffffff;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  margin: 25px 5px 5px 5px;
+}
+
+.div1 {
+  margin: 5px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.div2 {
+  margin: 5px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #344a53;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+}
+
+.cityName {
+  margin: 20px 0 0 0;
+  font-size: 1.5rem;
+}
+
+.cityTemp {
+  margin: 10px 0 0 0;
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  color: #344a53;
+  text-align: center;
+  text-decoration: none;
+}
+
+.cityCond{
+  margin: 15px 0 0 0;
+}
+
+.date{
+  margin: 0px 0 5px 0;
+}
+.hourlyDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content :space-around;
+  gap: 5px;
+  margin: 30px 0 0 0;
+}
+.hour{
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0 5px 0;
+  height: 120px;
+  width: 87px;
+  border-radius: 40px;
+  background-color: #ffffff;
+  justify-content: center;
+}
+
+.vecImg{
+  margin: 10px 0 0 0;
+  width: 100%;
+  height: auto;
+}
+
+::placeholder {
+  font-family: "Kanit", sans-serif;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.weatherMore{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 5px;
+  margin: 5px 0 0 0;
+}
+
+#rise{
+  color: #ffffff;
+}
+#set{
+  color: #ffffff;
+}
