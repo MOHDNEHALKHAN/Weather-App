@@ -8,7 +8,7 @@ body {
   height: 50px;
   display: flex;
   flex-direction: row;
-  margin: 20px 5px 5px 5px;
+  margin: 10px 5px 5px 5px;
   justify-content: center;
   gap: 5px;
 }
@@ -45,7 +45,7 @@ body {
   border-radius: 30px;
   display: flex;
   flex-direction: row;
-  margin: 25px 5px 5px 5px;
+  margin: 20px 5px 5px 5px;
 }
 
 .div1 {
@@ -105,9 +105,9 @@ p {
   display: flex;
   flex-direction: column;
   margin: 0px 0 5px 0;
-  height: 120px;
+  height: 135px;
   width: 87px;
-  border-radius: 40px;
+  border-radius: 25px;
   background-color: #ffffff;
   justify-content: center;
 }

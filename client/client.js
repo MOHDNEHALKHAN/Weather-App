@@ -5,7 +5,6 @@ searchBtn.addEventListener('click', async () => {
   try {
       const response = await fetch(`/weather/${location}`);
       const weatherData = await response.json();
-      console.log(weatherData); // You can handle the DOM manipulation here
       // Call your function to update the DOM with weatherData
       updateWeatherInfo(weatherData);
   } catch (error) {
@@ -26,6 +25,9 @@ function updateWeatherInfo(data) {
     document.getElementById('wind').innerText = `${current.current.wind_kph} km/h`;
     document.querySelector('.Rise').innerText = forecast.forecast.forecastday[0].astro.sunrise;
     document.querySelector('.Set').innerText = forecast.forecast.forecastday[0].astro.sunset;
+    document.querySelector('.morn').innerText = `${forecast.forecast.forecastday[0].hour[7].temp_c}°C`;
+    document.querySelector('.even').innerText = `${forecast.forecast.forecastday[0].hour[18].temp_c}°C`;
+    document.querySelector('.night').innerText = `${forecast.forecast.forecastday[0].hour[23].temp_c}°C`;
   } catch (error) {
     console.error('Error updating weather info:', error);
     // Optionally, update the DOM to show an error message or clear outdated information
