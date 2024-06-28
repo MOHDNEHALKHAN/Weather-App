@@ -138,3 +138,18 @@ p {
 #set{
   color: #ffffff;
 }
+
+/* Define the animation */
+@keyframes rotateImage {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Apply the animation to your image */
+.weatherImg{
+  animation: rotateImage 10s linear infinite;
+}

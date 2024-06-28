@@ -65,7 +65,7 @@ function updateWeatherInfo(data) {
       weatherIcon.src = 'Assets/WeatherImg/snow.png';
     }
     else if(current.current.condition.text === 'Patchy light rain with thunder'){
-      weatherIcon.src = 'Assets/WeatherImg/isolatedthunderstorms.png';
+      weatherIcon.src = 'Assets/WeatherImg/thunderstorms.png';
     }
     else if(current.current.condition.text === 'Moderate or heavy rain with thunder'){
       weatherIcon.src = 'Assets/WeatherImg/thunderstorms.png';
